@@ -39,43 +39,39 @@
             </div>
           </form>
           <div class="overview">
-            <h1 id="city"></h1>
             <ul>
-              <li>Last updated at <span id="date"></span></li>
-              <li id="description"></li>
+             <li class="main"> <span id="city"></span> | <span id="date"></span> </li>
+              <li>  
+                <div>
+              <div class="clearfix weather-temperature">
+                <img src="" id="icon"  />
+                  <strong id="temperature"> </strong>
+                  <span class="units"></span>
+                    <a herf="#" id="celsius-link" class="active">°C</a> 
+                  </span> | 
+            <span id="description"></span></li>
+            </div> 
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"> </strong>
-                  <span class="units"></span>
-                    <a herf="#" id="celsius-link" class="active">°C</a> 
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
               <ul>
-
-                <li>Huminidity : <span id="humidity"> %</span></li>
-                <li>Wind : <span id="wind"> Km/h </span></li>
+                <li>Huminidity : <span id="humidity" class="humid"> % </span> Wind : <span id="wind" class="wind"> Km/h </span></li>
               </ul>
             </div>
           </div>
           <div class="weather-forecast" id="forecast">
-           
             </div>
           </div>
-        </div>
+          
         <small>
-          <a href="https://github.com/julqgan" target="_blank">
+          </div>
+        <div class="open">
+          <a href="https://github.com/julqgan" target="_blank" class="name">
             Open-source code</a
-          >
-          , by Julia Paulina Gancarz
+          >, by Julia Paulina Gancarz
         </small>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
